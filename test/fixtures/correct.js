@@ -1,6 +1,6 @@
 // Avoid extra `no-unused-vars` violations.
 function noop() {
-  // do nothing
+  // Do nothing
 }
 
 // `array-bracket-spacing`, `comma-spacing` and `no-multi-spaces`.
@@ -19,6 +19,13 @@ try {
 }
 
 noop(function *() { return yield noop(); });
+
+// `capitalized-comments`.
+
+noop();
+
+// First line must be capitalized.
+// following lines don't.
 
 // `comma-dangle`, `comma-style`.
 noop({ bar: 'foo', foo: 'bar' });
@@ -253,7 +260,7 @@ const spaceUnaryOps2 = ++spaceUnaryOps1;
 noop(spaceUnaryOps2);
 
 // `spaced-comment`.
-// spaced comment.
+// Spaced comment.
 
 // `sql-template/no-unsafe-query`.
 const db = {

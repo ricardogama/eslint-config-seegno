@@ -24,6 +24,9 @@ module.exports = {
       allowSingleLine: true
     }],
     camelcase: 'off',
+    'capitalized-comments': ['error', 'always', {
+      ignoreConsecutiveComments: true
+    }],
     'comma-dangle': 'error',
     'comma-spacing': 'error',
     'comma-style': 'error',
